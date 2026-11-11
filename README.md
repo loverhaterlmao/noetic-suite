@@ -15,6 +15,20 @@
 
 <br>
 
+<!-- v2:a -->
+<table>
+<tr>
+<td width="150" align="center"><img src="./assets/logo.svg" width="120" alt="Noetic Suite"></td>
+<td>
+<b>Noetic Suite for Windows</b> is for people with an account: sign in at <a href="https://noetic.lol/download">noetic.lol/download</a>. Noetic is open by invitation, and so is its app; <a href="https://github.com/loverhaterlmao/noetic-suite/releases/latest">the release notes</a> carry the checksum to check your download against, not the file.
+<br><br><b>On a phone:</b> open <a href="https://noetic.lol">noetic.lol</a> in your browser and choose <i>Add to Home Screen</i> (iPhone: the Share button; Android: the menu, then <i>Install app</i>).
+</td>
+</tr>
+</table>
+<!-- /v2:a -->
+
+
+
 ## What it does
 
 One AI assistant with a whole studio behind it. Ask in a sentence and get it finished: a game, a site, a document, a picture. Planned, built, run, reviewed and fixed before it reaches you.
@@ -61,6 +75,28 @@ pay-as-you-go credit from $5. What each includes: [PRICING.md](PRICING.md).
 | **Web** | [noetic.lol](https://noetic.lol) |
 | **Windows** | Signed-in accounts: user menu → *Get the desktop app* |
 | **Phone** | Open noetic.lol and choose *Add to home screen* in your browser's menu |
+
+<!-- v2:b -->
+## The desktop app
+
+<img src="./assets/app.svg" alt="Noetic Suite for Windows on its start screen" width="100%">
+
+- **Getting it:** sign in at [noetic.lol/download](https://noetic.lol/download). It is a zip; unzip it anywhere and open `NoeticSuite.exe`.
+- **What is in it:** Noetic Suite itself, which runs on your computer, and *Noetic Panel*, for people on the team.
+- **Checking it:** the download page shows the file's SHA-256, and so do [the release notes](https://github.com/loverhaterlmao/noetic-suite/releases/latest).
+- **The warning Windows shows:** "unknown publisher", the first time. The app is not code-signed yet. Check the file's
+  SHA-256 against the one in the release notes if you want to be sure it is ours.
+
+## Built with
+
+<p><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-f7df1e?style=flat-square&labelColor=12161b"> <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&labelColor=12161b"> <img alt="Rust" src="https://img.shields.io/badge/Rust-dea584?style=flat-square&labelColor=12161b"> <img alt="HTML" src="https://img.shields.io/badge/HTML-e34f26?style=flat-square&labelColor=12161b"> <img alt="CSS" src="https://img.shields.io/badge/CSS-663399?style=flat-square&labelColor=12161b"> <img alt="WebAssembly" src="https://img.shields.io/badge/WebAssembly-654ff0?style=flat-square&labelColor=12161b"> <img alt="Node.js" src="https://img.shields.io/badge/Node.js-5fa04e?style=flat-square&labelColor=12161b"></p>
+
+The source is closed, so GitHub's own language bar has nothing to count here. This is what Noetic Suite is written in and runs on.
+
+## The small print
+
+[Terms of use](TERMS.md) · [Privacy](PRIVACY.md) · [Acceptable use](ACCEPTABLE_USE.md) · [Licence](LICENSE)
+<!-- /v2:b -->
 
 ## In this repository
 
