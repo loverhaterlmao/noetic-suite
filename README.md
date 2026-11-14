@@ -73,15 +73,36 @@ pay-as-you-go credit from $5. What each includes: [PRICING.md](PRICING.md).
 | | |
 |---|---|
 | **Web** | [noetic.lol](https://noetic.lol) |
-| **Windows** | Signed-in accounts: user menu → *Get the desktop app* |
+| **Windows** | [noetic.lol/download](https://noetic.lol/download), or one line in a terminal (below) |
+| **Terminal** | `noetic`, a command that works in any folder (below) |
 | **Phone** | Open noetic.lol and choose *Add to home screen* in your browser's menu |
+
+## From a terminal
+
+One line in PowerShell downloads the Windows app, checks it against its checksum, and installs it without asking anything:
+
+    irm https://noetic.lol/install.ps1 | iex
+
+It also gives you `noetic`, a command that works in any folder:
+
+    noetic                        # talk to it here: it plans, builds and writes the files into this folder
+    noetic "build a to-do app"    # say one thing first, then carry on
+    noetic -p "what is a tide"    # one answer, for scripts and pipes
+    noetic keys new               # make an API key
+    noetic get apps               # fetch the other S&NS apps
+
+The install script is short and plain; [read it](https://noetic.lol/install.ps1) before you run it if you like.
+
+## Connect your tools
+
+Noetic can use the tools of services you already have, through the Model Context Protocol: documentation servers that need no account, services where you sign in on their own page (Notion, Linear, Sentry, Figma, Canva and others), and any server of your own by its address. Looking things up is automatic; anything that changes something in another service asks you first. It is under **Customize → Connectors**.
 
 <!-- v2:b -->
 ## The desktop app
 
 <img src="./assets/app.svg" alt="Noetic Suite for Windows on its start screen" width="100%">
 
-- **Getting it:** sign in at [noetic.lol/download](https://noetic.lol/download). It is a zip; unzip it anywhere and open `NoeticSuite.exe`.
+- **Getting it:** [noetic.lol/download](https://noetic.lol/download), no account needed. It is a zip; unzip it and open `NoeticSuite.exe` once. It installs itself for your Windows account (no administrator rights), appears in your Start menu and under Installed apps, and opens from there from then on.
 - **What is in it:** Noetic Suite itself, which runs on your computer, and *Noetic Panel*, for people on the team.
 - **Checking it:** the download page shows the file's SHA-256, and so do [the release notes](https://github.com/loverhaterlmao/noetic-suite/releases/latest).
 - **The warning Windows shows:** "unknown publisher", the first time. The app is not code-signed yet. Check the file's
