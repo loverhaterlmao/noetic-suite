@@ -20,7 +20,7 @@
 <tr>
 <td width="150" align="center"><img src="./assets/logo.svg" width="120" alt="Noetic Suite"></td>
 <td>
-<b>Noetic Suite for Windows</b> is for people with an account: sign in at <a href="https://noetic.lol/download">noetic.lol/download</a>. Noetic is open by invitation, and so is its app; <a href="https://github.com/loverhaterlmao/noetic-suite/releases/latest">the release notes</a> carry the checksum to check your download against, not the file.
+<b>Noetic Suite for Windows</b>: get it at <a href="https://noetic.lol/download">noetic.lol/download</a>. Anyone can create a free account. <a href="https://github.com/loverhaterlmao/noetic-suite/releases/latest">The release notes</a> carry the checksum to check your download against, not the file.
 <br><br><b>On a phone:</b> open <a href="https://noetic.lol">noetic.lol</a> in your browser and choose <i>Add to Home Screen</i> (iPhone: the Share button; Android: the menu, then <i>Install app</i>).
 </td>
 </tr>
