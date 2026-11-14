@@ -49,9 +49,15 @@ The report says plainly what was built, what was checked, and what was **not** d
 
 ## Getting in
 
-Noetic is open **by invitation** while it is new. We are taking on small developers, people who genuinely need the
-tool, and people willing to test it and tell us what broke. Apply on the front page of [noetic.lol](https://noetic.lol);
-a person reads every application.
+Anyone can create a free account on the front page of [noetic.lol](https://noetic.lol): an email address and a
+password, or a GitHub account. The free plan has a daily limit; what the paid plans cost is on the
+[pricing page](https://noetic.lol/pricing).
+
+## In your language
+
+The public pages (the front page, pricing, questions and download) are written in 18 languages: English, Spanish, Portuguese, French, German, Italian, Dutch, Polish, Turkish, Russian, Ukrainian, Arabic, Hindi, Indonesian, Vietnamese, Japanese, Korean and Chinese.
+Your browser's own language is chosen for you, each language has its own address (for example
+[noetic.lol/es/](https://noetic.lol/es/)), and every page carries a list to switch.
 
 ## Use it from your own programs
 
